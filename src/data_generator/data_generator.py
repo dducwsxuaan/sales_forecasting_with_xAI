@@ -458,7 +458,7 @@ def generate_weather_data(start_date, end_date, provinces):
             weather_data.append({
                 "city": province,
                 "date": date.strftime("%Y-%m-%d"),
-                "tempearture": temperature,
+                "temperature": temperature,
                 "humidity": humidity,
                 "season": season
 
